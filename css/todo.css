@@ -1,0 +1,32 @@
+main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todos{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.todos h3{
+    flex-grow: 1;
+    overflow: hidden;
+    font-size: 14pt;
+}
+
+.todo_actions{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.completed{
+    background-color: lightgreen;
+    border: none;
+}

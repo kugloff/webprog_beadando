@@ -1,0 +1,47 @@
+@import url('/css/constants.css');
+
+main{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+.section img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.section .content{
+    padding: 25px;
+    width: 60%;
+}
+
+.section.odd{
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+}
+
+.section.even{
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 500px){
+    .section{
+        flex-direction: column;
+    }
+
+    .section img{
+        width: 100%;
+    }
+
+    .section .content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cat_table{
+    min-width: 400px;
+}
